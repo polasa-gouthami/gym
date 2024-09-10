@@ -5,7 +5,7 @@ const Membership = () => {
   const navigate = useNavigate(); // Initialize useNavigate
 
   const handleGetStarted = () => {
-    navigate('/payment'); // Navigate to the "Payment" page
+    navigate('/register'); 
   };
 
   return (
