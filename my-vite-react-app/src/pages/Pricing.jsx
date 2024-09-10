@@ -41,7 +41,7 @@ const Membership = () => {
         Get Started
       </button>
     </div>
-   <div/>   
+    </div>   
 
  );
 };
