@@ -41,9 +41,7 @@ const Navbar = () => {
           <a href="#about" className="text-white">
             About Us
           </a>
-          <a href ="#classes" className="text-white">
-            Classes
-          </a>
+          
           <a href="#team" className="text-white">
             OurTeam
           </a>
@@ -61,21 +59,19 @@ const Navbar = () => {
       
       {isMenuOpen && (
         <nav className="md:hidden bg-gray-800 text-white space-y-2 p-4">
-          <Link to="/home" className="block">
+          <a href="#home" className="block">
             Home
-          </Link>
-          <Link to="/about" className="block">
+          </a>
+          <a href="#about" className="block">
             About 
-          </Link>
-          <Link to="/classes" className="block">
-            Classes
-          </Link>
-          <Link to="/team" className="block">
+          </a>
+          
+          <a href="#team" className="block">
             OurTeam
-          </Link>
-          <Link to="/pricing" className="block">
+          </a>
+          <a href="#pricing" className="block">
             Pricing
-          </Link>
+          </a>
           <Link to="/register" className="block bg-red-500 text-white px-4 py-2 rounded">
             Join Us
           </Link>
