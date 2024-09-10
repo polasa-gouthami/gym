@@ -7,7 +7,7 @@ import Footer from './Footer';
 
 function Gym() {
   return (
-    <div className=''>
+    <div id="gym">
       <div className="relative h-[450px] w-full">
         <img
           className='h-full w-full object-cover'
