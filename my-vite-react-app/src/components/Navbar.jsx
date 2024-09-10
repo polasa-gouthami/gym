@@ -11,9 +11,9 @@ const Navbar = () => {
   return (
     <header className="sticky top-0 bg-gray-900 shadow-md z-50">
       <div className="container mx-auto flex justify-between items-center p-4">
-        <Link to="/gym" className="text-2xl font-bold text-red-600">
+        <a href="#gym" className="text-2xl font-bold text-red-600">
           Gym
-        </Link>
+        </a>
 
         
         <div className="md:hidden" onClick={toggleMenu}>
@@ -38,18 +38,18 @@ const Navbar = () => {
           <Link to="/home" className="text-red-600 font-bold">
             Home
           </Link>
-          <Link to="/about" className="text-white">
+          <a href="#about" className="text-white">
             About Us
-          </Link>
-          <Link to="/classes" className="text-white">
+          </a>
+          <a href ="#classes" className="text-white">
             Classes
-          </Link>
-          <Link to="/team" className="text-white">
+          </a>
+          <a href="#team" className="text-white">
             OurTeam
-          </Link>
-          <Link to="/pricing" className="text-white">
+          </a>
+          <a href="#pricing" className="text-white">
             Pricing
-          </Link>
+          </a>
 
         </nav>
 
