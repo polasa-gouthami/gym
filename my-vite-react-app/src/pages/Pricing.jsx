@@ -9,7 +9,7 @@ const Membership = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white">
+    <div id="pricing" className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white">
       <h1 className="text-4xl font-bold mb-10">Membership</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div className="bg-gray-800 p-8 rounded-lg shadow-lg">
