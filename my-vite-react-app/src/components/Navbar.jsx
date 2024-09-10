@@ -35,9 +35,9 @@ const Navbar = () => {
 
       
         <nav className="hidden md:flex space-x-4">
-          <Link to="/home" className="text-red-600 font-bold">
+          <a href="#home" className="text-red-600 font-bold">
             Home
-          </Link>
+          </a>
           <a href="#about" className="text-white">
             About Us
           </a>
